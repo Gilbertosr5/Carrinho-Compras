@@ -45,3 +45,28 @@ header{
     display: none;
     font-size: 30px;
 }
+
+aside{
+    background-color: #9CCBE6;
+    width: 0vw;
+    font-family: 'Hepta Slab', Helvetica, Arial;
+    transition: all ease .2s;
+    overflow-x: hidden;
+}
+
+aside.show{
+    width: 20vw;
+}
+
+.cart--area{
+    padding: 20px;
+}
+
+main{
+    flex: 1;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Hepta Slab', Helvetica, Arial;
+}
